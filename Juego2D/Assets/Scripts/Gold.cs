@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Gold : MonoBehaviour
 {
+    public GameObject winWall;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,18 @@ public class Gold : MonoBehaviour
         if (other.gameObject.tag == "Gold"){
             print("The boxes are now together");
             GameManager.boxesTogether=true;
+            if(GameManager.gems==0){
+                Destroy(winWall);
+            }
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        print("hola");
+        if (other.gameObject.tag == "Gold"){
+            print("The boxes are no longer together");
+            GameManager.boxesTogether=false;
         }
     }
 }

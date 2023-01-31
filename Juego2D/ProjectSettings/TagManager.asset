@@ -8,6 +8,9 @@ TagManager:
   - Star
   - Enemy
   - MobilePlatform
+  - completeWall
+  - gem
+  - win
   layers:
   - Default
   - TransparentFX
