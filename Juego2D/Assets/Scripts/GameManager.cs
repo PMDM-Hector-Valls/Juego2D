@@ -4,6 +4,6 @@ using UnityEngine;
 
 public static class GameManager
 {
-    public static int coins = 0;
+    public static int gems = 7;
     public static bool boxesTogether = false;
 }
