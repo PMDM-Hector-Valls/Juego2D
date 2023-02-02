@@ -69,6 +69,9 @@ public class Character : MonoBehaviour
         if (other.gameObject.tag == "win"){
             SceneManager.LoadScene(2);
         }
+        if (other.gameObject.tag == "Goal"){
+            SceneManager.LoadScene(4);
+        }
         
         if (other.gameObject.tag == "deadZone"){
             SceneManager.LoadScene(3);

@@ -6,6 +6,7 @@ public class Slime : MonoBehaviour
 {
     private float Speed = 1.0f;
     public float lateralMovement = 2.0f;
+    public int scale = 1;
     public Transform groundCheck;
 
     private Rigidbody2D Rigidbody2D;
@@ -27,10 +28,10 @@ public class Slime : MonoBehaviour
     {
         seconds += Time.deltaTime;
         if (seconds >= time){
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-scale, scale, 0);
         } 
         if (seconds >= (time*2)){
-            transform.localScale = new Vector3(1,1,1);
+            transform.localScale = new Vector3(scale,scale,0);
             seconds=0;
         }
     }
