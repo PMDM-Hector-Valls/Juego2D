@@ -11,6 +11,7 @@ TagManager:
   - completeWall
   - gem
   - win
+  - deadZone
   layers:
   - Default
   - TransparentFX

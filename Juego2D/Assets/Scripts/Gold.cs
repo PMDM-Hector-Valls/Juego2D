@@ -14,7 +14,9 @@ public class Gold : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GameManager.boxesTogether == true && GameManager.gems == 0){
+                Destroy(winWall.gameObject);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -22,9 +24,6 @@ public class Gold : MonoBehaviour
         if (other.gameObject.tag == "Gold"){
             print("The boxes are now together");
             GameManager.boxesTogether=true;
-            if(GameManager.gems==0){
-                Destroy(winWall);
-            }
         }
     }
 
