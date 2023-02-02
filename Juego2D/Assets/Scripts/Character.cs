@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Character : MonoBehaviour
 {
@@ -44,6 +46,41 @@ public class Character : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
 
 
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "MobilePlatform"){
+            transform.SetParent(other.transform);
+        }
+
+        if (other.gameObject.tag == "Enemy"){
+            SceneManager.LoadScene(3);
+        }
+            
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+         if (other.gameObject.tag == "gem"){
+            GameManager.gems--;
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "win"){
+            SceneManager.LoadScene(2);
+        }
+        
+        if (other.gameObject.tag == "deadZone"){
+            SceneManager.LoadScene(3);
+        }
+    }
+
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "MobilePlatform"){
+            transform.SetParent(null);
+        }
     }
     
     
