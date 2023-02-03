@@ -67,6 +67,15 @@ public class Character : MonoBehaviour
         Speed = lateralMovement * 0;
         transform.localScale = new Vector3(1, 1, 1);
     }
+    
+    public void right(){
+        Speed = lateralMovement * 1;
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+    public void rightOff(){
+        Speed = lateralMovement * 0;
+        transform.localScale = new Vector3(1, 1, 1);
+    }
 
 
     void OnCollisionEnter2D(Collision2D other)
