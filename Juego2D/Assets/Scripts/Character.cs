@@ -10,9 +10,12 @@ public class Character : MonoBehaviour
     public float lateralMovement = 2.0f;
     public float jumpMovement = 400.0f;
 
+
     public Transform groundCheck;
 
     private Animator animator;
+    private bool moveRight;
+    private bool moveLeft; 
     private Rigidbody2D rigidbody2d;
 
     public bool grounded=true;
@@ -20,33 +23,51 @@ public class Character : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
+        moveRight = false;
+        moveLeft = false; 
     }
+    
     void Update() {
                 grounded = Physics2D.Linecast(transform.position,
                                                     groundCheck.position,
                                                             LayerMask.GetMask("Ground"));
-
+/*
         if (grounded && Input.GetButtonDown("Jump"))
                 rigidbody2d.AddForce (Vector2.up * jumpMovement);
-
+*/
         if (grounded)
                 animator.SetTrigger("Grounded");
         else
                 animator.SetTrigger("Jump");
 
+/*
         Speed = lateralMovement * Input.GetAxis("Horizontal");
         
-        transform.Translate(Vector2.right * Speed * Time.deltaTime);
-        
-        animator.SetFloat("Speed", Mathf.Abs(Speed));
 
         if (Speed < 0)
             transform.localScale = new Vector3(-1, 1, 1);
         else
             transform.localScale = new Vector3(1, 1, 1);
-
-
+            */
+         transform.Translate(Vector2.right * Speed * Time.deltaTime);
+        
+        animator.SetFloat("Speed", Mathf.Abs(Speed));
     }
+
+    public void jump(){
+        if (grounded){
+            rigidbody2d.AddForce (Vector2.up * jumpMovement);
+        }
+    }
+    public void left(){
+        Speed = lateralMovement * -1;
+        transform.localScale = new Vector3(-1, 1, 1);
+    }
+    public void leftOff(){
+        Speed = lateralMovement * 0;
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+
 
     void OnCollisionEnter2D(Collision2D other)
     {
