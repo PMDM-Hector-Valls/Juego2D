@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 using UnityEngine.SceneManagement;
 
 
@@ -21,6 +22,8 @@ public class Character : MonoBehaviour
     public bool grounded=true;
     void Start()
     {
+        print(GameManager.currentLevel);
+        print(GameManager.currentLevel);
         animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         moveRight = false;
@@ -92,11 +95,17 @@ public class Character : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.tag == "ZOOM"){
+            GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>().enabled = false;
+            print(false);
+        }
          if (other.gameObject.tag == "gem"){
             GameManager.gems--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "win"){
+            GameManager.currentLevel++;
+            print(GameManager.currentLevel);
             SceneManager.LoadScene("Nivel2");
         }
         if (other.gameObject.tag == "Goal"){
@@ -105,6 +114,13 @@ public class Character : MonoBehaviour
         
         if (other.gameObject.tag == "deadZone"){
             SceneManager.LoadScene("Lose");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "ZOOM"){
+            GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>().enabled = true;
         }
     }
 

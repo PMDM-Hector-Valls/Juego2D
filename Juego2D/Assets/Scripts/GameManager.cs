@@ -6,4 +6,5 @@ public static class GameManager
 {
     public static int gems = 7;
     public static bool boxesTogether = false;
+    public static int currentLevel = 0;
 }

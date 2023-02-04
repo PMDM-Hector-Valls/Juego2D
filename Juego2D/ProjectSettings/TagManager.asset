@@ -13,6 +13,7 @@ TagManager:
   - win
   - deadZone
   - Goal
+  - ZOOM
   layers:
   - Default
   - TransparentFX
