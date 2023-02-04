@@ -12,6 +12,8 @@ public class Canvas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameManager.gems = 7;
+        GameManager.boxesTogether = false;
         gems.text = "Gems left: " + GameManager.gems;
         boxesState.text = "Boxes are separated";
     }
