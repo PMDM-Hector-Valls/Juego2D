@@ -9,15 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 4867a0bddb0ddfc4baeec75d51148aa6
   - enabled: 1
+    path: Assets/Scenes/Goals.unity
+    guid: 5e9bbb287294cb345911f1a6752772a7
+  - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: 5cd4b02e59ef984439275ae853a35ab3
   - enabled: 1
     path: Assets/Scenes/Nivel2.unity
-    guid: 8dcd677f07956914db14ef2a21af7b29
+    guid: 2a4ce039db0d12f4ca92b83feb4408da
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 3c4fe74089facbc4d9a1204173358026
   - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

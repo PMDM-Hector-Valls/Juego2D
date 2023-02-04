@@ -85,7 +85,7 @@ public class Character : MonoBehaviour
         }
 
         if (other.gameObject.tag == "Enemy"){
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("Lose");
         }
             
     }
@@ -97,14 +97,14 @@ public class Character : MonoBehaviour
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "win"){
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Nivel2");
         }
         if (other.gameObject.tag == "Goal"){
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("WinScreen");
         }
         
         if (other.gameObject.tag == "deadZone"){
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("Lose");
         }
     }
 
