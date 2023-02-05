@@ -1,0 +1,327 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+56973
+Successfully changed project path to: C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25468] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 3210282908 [EditorId] 3210282908 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25468] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 3210282908 [EditorId] 3210282908 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 239.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) R5 M330 (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015635 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1718 ms
+Refreshing native plugins compatible for Editor in 474.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3934ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (3248ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (2805ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1901ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (475ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 166.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5202ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (4784ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (774ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (474ms)
+			SetupLoadedEditorAssemblies (3026ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (1160ms)
+				ProcessInitializeOnLoadMethodAttributes (1257ms)
+				AfterProcessingInitializeOnLoad (200ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (129.0 KB). Loaded Objects now: 4691.
+Memory consumption went from 157.6 MB to 157.5 MB.
+Total: 7.979500 ms (FindLiveObjects: 0.478100 ms CreateObjectMapping: 0.549800 ms MarkObjects: 6.835800 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1714523.685830 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/MP3/STINGER/DRIVING-METAL-POWER_DeepForms.Co.Uk_STINGER.mp3
+  artifactKey: Guid(2fec4d4a5bfc1c5429de8efd844dde42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/MP3/STINGER/DRIVING-METAL-POWER_DeepForms.Co.Uk_STINGER.mp3 using Guid(2fec4d4a5bfc1c5429de8efd844dde42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ae0fd45bd7198edc035bb727400a6') in 0.530160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.490305 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/DRIVING-METAL-POWER_DeepForms.Co.Uk_FULL.wav
+  artifactKey: Guid(9fd777c89d5a8fd43966792bfe16a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/DRIVING-METAL-POWER_DeepForms.Co.Uk_FULL.wav using Guid(9fd777c89d5a8fd43966792bfe16a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48386044cbc64659f3ef2539f432e2b6') in 0.062225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/RAWSHACK-ROCKER_DeepForms.Co.Uk_FULL.wav
+  artifactKey: Guid(1dd683ebc9f510e44b93f9c72434cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/RAWSHACK-ROCKER_DeepForms.Co.Uk_FULL.wav using Guid(1dd683ebc9f510e44b93f9c72434cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb4efa0ae5613e128052ceca2ebbf7') in 0.054374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/ROCK-PROTRACTION_DeepForms.Co.Uk_FULL.wav
+  artifactKey: Guid(af7eb67addf6fa04b8dd8f629e84f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/FULL/ROCK-PROTRACTION_DeepForms.Co.Uk_FULL.wav using Guid(af7eb67addf6fa04b8dd8f629e84f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894d43eef331604103dc3e6863da005a') in 0.049356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207436 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/LOOP/DRIVING-METAL-POWER_DeepForms.Co.Uk_LOOP.wav
+  artifactKey: Guid(6e2b56a313d7d4745b94c388f51d342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/LOOP/DRIVING-METAL-POWER_DeepForms.Co.Uk_LOOP.wav using Guid(6e2b56a313d7d4745b94c388f51d342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c3b633aac1cadaeb2f5695d8324c24') in 0.074438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/LOOP/SOUTHERN-ROCKOUT_DeepForms.Co.Uk_LOOP.wav
+  artifactKey: Guid(96b7645d01b3d8248beba3cf8af758b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/LOOP/SOUTHERN-ROCKOUT_DeepForms.Co.Uk_LOOP.wav using Guid(96b7645d01b3d8248beba3cf8af758b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef3a8ce57969542670d79ebea0226ac') in 0.057379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120354 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/STINGER/DRIVING-METAL-POWER_DeepForms.Co.Uk_STINGER.wav
+  artifactKey: Guid(56968f877f2faef4eb60fa950e74e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/STINGER/DRIVING-METAL-POWER_DeepForms.Co.Uk_STINGER.wav using Guid(56968f877f2faef4eb60fa950e74e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939b41087ca9fe42df933509ed83ece2') in 0.095364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/STINGER/RAWSHACK-ROCKER_DeepForms.Co.Uk_STINGER.wav
+  artifactKey: Guid(03b2fd9c9e9aded41b5e090f06be0357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ROCK-AND-METAL-SONGS-AND-LOOPS-VOL1/WAV/STINGER/RAWSHACK-ROCKER_DeepForms.Co.Uk_STINGER.wav using Guid(03b2fd9c9e9aded41b5e090f06be0357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7536dd1c7f9e10869070f18ca39be5') in 0.067212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 314.609296 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/01 - Distress Signals (Resurrect The Dead).ogg
+  artifactKey: Guid(fd743e608f3f67d4e9fdd5729b920bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/01 - Distress Signals (Resurrect The Dead).ogg using Guid(fd743e608f3f67d4e9fdd5729b920bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef97766b8e7500b9a8c8e55b6e2425e') in 0.114671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/12 - Atomic Rush (down micro scope).ogg
+  artifactKey: Guid(2399cb7643692fb4ab0e469100280397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/12 - Atomic Rush (down micro scope).ogg using Guid(2399cb7643692fb4ab0e469100280397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf3da2bcf2cad802aa071e35659a9d9') in 0.024137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/32 - Hot Cakes (Bakers).ogg
+  artifactKey: Guid(021928a9491c6e241b571f5515842aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/32 - Hot Cakes (Bakers).ogg using Guid(021928a9491c6e241b571f5515842aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8781f335275e62f0e7d9b477b3e20531') in 0.062579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/28 - Teleportation (Comet Convention).ogg
+  artifactKey: Guid(6f8fd9a1c5b45db4a9fc0ab52d117016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/28 - Teleportation (Comet Convention).ogg using Guid(6f8fd9a1c5b45db4a9fc0ab52d117016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b94bc2190fef7e6d953534a32356d59') in 0.134795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001131 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/08 - Concepcion (Cid Daria).ogg
+  artifactKey: Guid(a163a800d05f81f4d8fa9eeb9029a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/08 - Concepcion (Cid Daria).ogg using Guid(a163a800d05f81f4d8fa9eeb9029a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa7b25ed06bd32adfe5e8211100eca') in 0.092773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/13 - 11-11 (Wish Upon).ogg
+  artifactKey: Guid(fa47d90410a70d24b9681512d9f7e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/13 - 11-11 (Wish Upon).ogg using Guid(fa47d90410a70d24b9681512d9f7e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09a8bbc2d8ae7ee2121868a179ab17a') in 0.193023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/27 - You've Got Red On You (Escape Pod).ogg
+  artifactKey: Guid(b8b7cd466f86e4247a74212cd159652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/27 - You've Got Red On You (Escape Pod).ogg using Guid(b8b7cd466f86e4247a74212cd159652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712ea5637460fec03545236d7f324346') in 0.115615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/34 - Do Not Adjust Your Television Set (Slurp & Burp).ogg
+  artifactKey: Guid(ae0e895e9509c2943b49c95549341a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/34 - Do Not Adjust Your Television Set (Slurp & Burp).ogg using Guid(ae0e895e9509c2943b49c95549341a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a443090033104794c39fddf0c07dec3c') in 0.118531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022037 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/31 - Brat! (HermetiK).ogg
+  artifactKey: Guid(d3ccb84821365284096536b5baed612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/31 - Brat! (HermetiK).ogg using Guid(d3ccb84821365284096536b5baed612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce7ec33fde63cb18bfb2b030b1b376e') in 0.152529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/22 - C-Beams Speech (Cruel World).ogg
+  artifactKey: Guid(727b2797b39f9e34b88363ed5f7c8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/22 - C-Beams Speech (Cruel World).ogg using Guid(727b2797b39f9e34b88363ed5f7c8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09aa2d625151ef558077920f43af9ad') in 0.429803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/23 - Thin Crust (Pizza Bear).ogg
+  artifactKey: Guid(4dab992aca601f1409b0bea83d22cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/23 - Thin Crust (Pizza Bear).ogg using Guid(4dab992aca601f1409b0bea83d22cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0796cb758a69e40271c063a30434bcf2') in 0.075944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007086 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/30 - Unknown #6 (Unknown Entities).ogg
+  artifactKey: Guid(11c3cf87b56ecfe4ba4035b58415e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/30 - Unknown #6 (Unknown Entities).ogg using Guid(11c3cf87b56ecfe4ba4035b58415e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb5cc526776427aa38b1a0c9a215011') in 0.111640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/16 - Time Is Running Out (Magnetic Horizon).ogg
+  artifactKey: Guid(eb07bf0038ccb1b4aa5dee610dd36357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/16 - Time Is Running Out (Magnetic Horizon).ogg using Guid(eb07bf0038ccb1b4aa5dee610dd36357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f97ff0f6089a822e82d7843c5466b12') in 0.081368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004616 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/05 - Straight On 'Til Morning (R4V3N & The Stargazeras).ogg
+  artifactKey: Guid(08cad01e080a00949b89a24b81e63bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/05 - Straight On 'Til Morning (R4V3N & The Stargazeras).ogg using Guid(08cad01e080a00949b89a24b81e63bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eb8b7cea407d8c09920a01c33dc459') in 0.043046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/04 - Allow Myself To Introduce...Myself (Sorry I Am Late).ogg
+  artifactKey: Guid(0f168d2ab65820e4da4f2d6db865ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/04 - Allow Myself To Introduce...Myself (Sorry I Am Late).ogg using Guid(0f168d2ab65820e4da4f2d6db865ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f58eeefb5b5cee0e8e9283535df216') in 0.050147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/19 - The Ritual Begins (Volcan).ogg
+  artifactKey: Guid(d1b7fdc3b3268c840a56c351900d4ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/19 - The Ritual Begins (Volcan).ogg using Guid(d1b7fdc3b3268c840a56c351900d4ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07144d0aad9ac897ba2c706f7bdbdcd7') in 0.124599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.689312 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/35 - Skool Iz 4 Chumps (Q + The Tips).ogg
+  artifactKey: Guid(00e6f6585cf618e45a05d454128099b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/35 - Skool Iz 4 Chumps (Q + The Tips).ogg using Guid(00e6f6585cf618e45a05d454128099b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021e2fb05a69f06bf215bcb57836eea7') in 0.854749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/The Intergalactic Beets Project - Full-Length Song Collection I/37 - Photosynthesizer (Fungus Emporium).ogg
+  artifactKey: Guid(68870496e78242b4d885827ba65ceea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Intergalactic Beets Project - Full-Length Song Collection I/37 - Photosynthesizer (Fungus Emporium).ogg using Guid(68870496e78242b4d885827ba65ceea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbdf3cc78ba80aa867b526564bd60e8') in 0.046860 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

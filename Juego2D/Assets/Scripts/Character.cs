@@ -20,6 +20,8 @@ public class Character : MonoBehaviour
     private Rigidbody2D rigidbody2d;
 
     public bool grounded=true;
+    
+    private AudioSource audioSource;
     void Start()
     {
         print(GameManager.currentLevel);
@@ -28,6 +30,7 @@ public class Character : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         moveRight = false;
         moveLeft = false; 
+        audioSource = GetComponent<AudioSource>();
     }
     
     void Update() {
@@ -42,6 +45,7 @@ public class Character : MonoBehaviour
                 animator.SetTrigger("Grounded");
         else
                 animator.SetTrigger("Jump");
+                
 
 /*
         Speed = lateralMovement * Input.GetAxis("Horizontal");
@@ -60,6 +64,7 @@ public class Character : MonoBehaviour
     public void jump(){
         if (grounded){
             rigidbody2d.AddForce (Vector2.up * jumpMovement);
+            audioSource.Play();
         }
     }
     public void left(){
