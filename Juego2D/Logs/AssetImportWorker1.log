@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16299 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16163 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+C:/Users/HECTOR/Desktop/Juego2D/Juego2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56973
-Successfully changed project path to: C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
-C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+54541
+Successfully changed project path to: C:/Users/HECTOR/Desktop/Juego2D/Juego2D
+C:/Users/HECTOR/Desktop/Juego2D/Juego2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,113 @@ C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [488] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 420780947 [EditorId] 420780947 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13660] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2339517605 [EditorId] 2339517605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKIQKOJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [488] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 420780947 [EditorId] 420780947 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13660] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2339517605 [EditorId] 2339517605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKIQKOJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 488.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/HECTOR/Desktop/Juego2D/Juego2D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R5 M330 (ID=0x6660)
-    Vendor:   ATI
-    VRAM:     2039 MB
-    Driver:   27.20.1034.6
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2756
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016326 seconds.
+Registered in 0.007347 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 964 ms
-Refreshing native plugins compatible for Editor in 148.72 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 262 ms
+Refreshing native plugins compatible for Editor in 88.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.567 seconds
+- Completed reload, in  0.899 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2568ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2135ms)
-			LoadAssemblies (161ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (1645ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (553ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1283ms)
+				InitializePlatformSupportModulesInManaged (337ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (149ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016550 seconds.
+Registered in 0.006572 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 198.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 88.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.722 seconds
+- Completed reload, in  1.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2724ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (2173ms)
-			LoadAssemblies (184ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (581ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (150ms)
-			SetupLoadedEditorAssemblies (1130ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (464ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (199ms)
-				BeforeProcessingInitializeOnLoad (206ms)
-				ProcessInitializeOnLoadAttributes (557ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 9.93 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4232 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (129.0 KB). Loaded Objects now: 4691.
-Memory consumption went from 157.6 MB to 157.5 MB.
-Total: 6.353600 ms (FindLiveObjects: 0.524400 ms CreateObjectMapping: 0.564400 ms MarkObjects: 5.096700 ms  DeleteObjects: 0.166600 ms)
+Unloading 51 unused Assets / (130.9 KB). Loaded Objects now: 4692.
+Memory consumption went from 157.9 MB to 157.8 MB.
+Total: 3.533100 ms (FindLiveObjects: 0.298300 ms CreateObjectMapping: 0.134700 ms MarkObjects: 3.006900 ms  DeleteObjects: 0.092100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,77 +167,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1711438.730678 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 3.wav
-  artifactKey: Guid(b3266b78b59e8f348a9e503484cf6e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 3.wav using Guid(b3266b78b59e8f348a9e503484cf6e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff4cf1a431cb8c83ab53748de98e97b') in 0.481519 seconds 
+  Time since last request: 953836.357573 seconds.
+  path: Assets/Scenes/Lose.unity
+  artifactKey: Guid(3c4fe74089facbc4d9a1204173358026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lose.unity using Guid(3c4fe74089facbc4d9a1204173358026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7809c1790b7b9f8c31c573be84ea') in 0.011123 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005877 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4221 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (97.3 KB). Loaded Objects now: 4707.
+Memory consumption went from 156.8 MB to 156.7 MB.
+Total: 2.631200 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.119900 ms MarkObjects: 2.219800 ms  DeleteObjects: 0.036700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 147.438563 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_AC.wav
-  artifactKey: Guid(c10360c01d933497daef5828c3aca353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_AC.wav using Guid(c10360c01d933497daef5828c3aca353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8bda8822e07b18d270c14c846d05f5') in 0.151702 seconds 
+  Time since last request: 96.237494 seconds.
+  path: Assets/Images/game over.jpg
+  artifactKey: Guid(6fdc6c03f8a4d164094eda9e775015ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/game over.jpg using Guid(6fdc6c03f8a4d164094eda9e775015ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6573ea0eea4a9b726b74bf30c391f') in 0.133903 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_OD.wav
-  artifactKey: Guid(953657f6b665249c99adc95c80905637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_OD.wav using Guid(953657f6b665249c99adc95c80905637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb7808f88c99073da6f6d4f6f5761a5') in 0.077730 seconds 
+  Time since last request: 0.000085 seconds.
+  path: Assets/Images/game.png
+  artifactKey: Guid(6e548166097845342b96059af7c0d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/game.png using Guid(6e548166097845342b96059af7c0d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fab766efbf223179705d76c91a27bf') in 0.017247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_SF.wav
-  artifactKey: Guid(8da21cb1f6f724d45bbfa72054b3f694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_SF.wav using Guid(8da21cb1f6f724d45bbfa72054b3f694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d0c468b907f8bb14f3961ab87aa50a') in 0.066694 seconds 
+  Time since last request: 5.975154 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Down.png
+  artifactKey: Guid(b064041c87bd8fb4ba2c21aa4863127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Down.png using Guid(b064041c87bd8fb4ba2c21aa4863127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9e5edb0618a40fb26dbf9a14604b1c') in 0.105520 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_2.wav
-  artifactKey: Guid(c730adf519f1a44b29e14095a44c3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_2.wav using Guid(c730adf519f1a44b29e14095a44c3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03856c11eed544f56b0d13ff90743263') in 0.040825 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Left.png
+  artifactKey: Guid(fd5f7c807ca1ea643b0ae501ff889a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Left.png using Guid(fd5f7c807ca1ea643b0ae501ff889a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b7f1a6e0cea68817d903f74131bdb6') in 0.039235 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1.wav
-  artifactKey: Guid(073f0b07f1bfe4e20999adf0e73f7b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1.wav using Guid(073f0b07f1bfe4e20999adf0e73f7b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa35d49b3d37668fbf4d30e20f5c61') in 0.039390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_SF.wav
-  artifactKey: Guid(f1db07c9743c14a209f54d8991f77948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_SF.wav using Guid(f1db07c9743c14a209f54d8991f77948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab2477115e2e85038a249ca6a3405cd') in 0.029806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_CR.wav
-  artifactKey: Guid(deb36906e79b6481fb35ca43872127d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_CR.wav using Guid(deb36906e79b6481fb35ca43872127d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba54b7a0aa63566ab4124e821c78987') in 0.028350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_2.wav
-  artifactKey: Guid(20639d791cebb4fbbb25da7da040a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_2.wav using Guid(20639d791cebb4fbbb25da7da040a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a18fcf2851904d504b67d1e3a2a23e') in 0.032108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_BV.wav
-  artifactKey: Guid(264c66f09c4624a6ea0a27f39e883833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_BV.wav using Guid(264c66f09c4624a6ea0a27f39e883833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482901e019c87047b7f8645266d5d41e') in 0.022061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_BV.wav
-  artifactKey: Guid(e8f4c950c519d48b4b5307ec8addc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_BV.wav using Guid(e8f4c950c519d48b4b5307ec8addc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753da5aa6a54a7403afcfa1f4e038a3c') in 0.024926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_BV.wav
-  artifactKey: Guid(636ca877be2a549948e4bf67c1aa0c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1_BV.wav using Guid(636ca877be2a549948e4bf67c1aa0c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da401a575fee8053be372c6d8bdaf0d8') in 0.027014 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000052 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Right.png
+  artifactKey: Guid(14877617607f5fb47af48fcd766426ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Right.png using Guid(14877617607f5fb47af48fcd766426ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c3ba8bb7f7c030ad9eebb549340ef0') in 0.026703 seconds 

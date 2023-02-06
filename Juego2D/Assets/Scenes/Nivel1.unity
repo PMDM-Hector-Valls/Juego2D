@@ -6829,7 +6829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -210, y: 79}
+  m_AnchoredPosition: {x: -180, y: 118}
   m_SizeDelta: {x: 400, y: 56.3555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421059584
@@ -7294,7 +7294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355, y: -130}
+  m_AnchoredPosition: {x: -361, y: -183}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526187185
@@ -8699,7 +8699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 366, y: -130}
+  m_AnchoredPosition: {x: 360.00003, y: -183}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &970089026
@@ -9285,14 +9285,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!81 &1080434891
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080434889}
-  m_Enabled: 1
 --- !u!1 &1107414236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9545,7 +9537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285, y: -130}
+  m_AnchoredPosition: {x: -290.99997, y: -183}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174659455
@@ -9752,7 +9744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -207, y: 136}
+  m_AnchoredPosition: {x: -176.99998, y: 175.00002}
   m_SizeDelta: {x: 400, y: 56.3555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1200647780 stripped
@@ -11285,7 +11277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827444959}
   m_LocalRotation: {x: 7.17e-43, y: 1.435e-42, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5302577, y: 0.27744853, z: -10}
+  m_LocalPosition: {x: -6.1029763, y: 0.20884693, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11879,7 +11871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973873411}
   m_LocalRotation: {x: 7.17e-43, y: 1.435e-42, z: -0, w: 1}
-  m_LocalPosition: {x: -4.736145, y: 0.1586219, z: -10}
+  m_LocalPosition: {x: -6.102878, y: 0.1586219, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12624,5 +12616,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 8305212627694780668, guid: cd43539843382ad4ba01ca77ac1f50ae, type: 3}
+      propertyPath: getGem
+      value: 
+      objectReference: {fileID: 8300000, guid: b6062378ef6e093409977226ba02132e, type: 3}
+    - target: {fileID: 8305212627694780668, guid: cd43539843382ad4ba01ca77ac1f50ae, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 01fe24a0680402b4ead376ba5843662f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd43539843382ad4ba01ca77ac1f50ae, type: 3}

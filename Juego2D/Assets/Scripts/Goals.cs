@@ -7,8 +7,7 @@ public class Goals : MonoBehaviour
 {
     public void StartButton()
     {
-        GameManager.currentLevel=0;
-        GameManager.currentLevel++;
+        GameManager.currentLevel=2;
         print(GameManager.currentLevel);
         SceneManager.LoadScene("Nivel1");
     }
