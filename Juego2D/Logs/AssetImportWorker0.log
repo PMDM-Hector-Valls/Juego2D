@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16299 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16163 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+C:/Users/HECTOR/Desktop/Juego2D/Juego2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56973
-Successfully changed project path to: C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
-C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
+54541
+Successfully changed project path to: C:/Users/HECTOR/Desktop/Juego2D/Juego2D
+C:/Users/HECTOR/Desktop/Juego2D/Juego2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,170 @@ C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5352] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 1711088654 [EditorId] 1711088654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12904] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3181643886 [EditorId] 3181643886 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKIQKOJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5352] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 1711088654 [EditorId] 1711088654 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4FJTOO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12904] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3181643886 [EditorId] 3181643886 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKIQKOJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 242.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Chantal/Desktop/ju/Juego2D/Juego2D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/HECTOR/Desktop/Juego2D/Juego2D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R5 M330 (ID=0x6660)
-    Vendor:   ATI
-    VRAM:     2039 MB
-    Driver:   27.20.1034.6
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2756
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016052 seconds.
+Registered in 0.006773 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 783 ms
-Refreshing native plugins compatible for Editor in 269.72 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 266 ms
+Refreshing native plugins compatible for Editor in 89.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.757 seconds
+- Completed reload, in  0.898 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2766ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (898ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2255ms)
-			LoadAssemblies (221ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1563ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (552ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (975ms)
+				InitializePlatformSupportModulesInManaged (342ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (270ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018018 seconds.
+Registered in 0.006979 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Chantal\Desktop\ju\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 187.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.611 seconds
+- Completed reload, in  1.170 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2614ms)
-		BeginReloadAssembly (235ms)
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (2110ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (555ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (143ms)
-			SetupLoadedEditorAssemblies (1081ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (467ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (187ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (535ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (2ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4232 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (129.0 KB). Loaded Objects now: 4691.
-Memory consumption went from 157.6 MB to 157.5 MB.
-Total: 4.225200 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.371400 ms MarkObjects: 3.338200 ms  DeleteObjects: 0.115600 ms)
+Unloading 51 unused Assets / (130.9 KB). Loaded Objects now: 4692.
+Memory consumption went from 157.7 MB to 157.6 MB.
+Total: 3.210200 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.166600 ms MarkObjects: 2.624000 ms  DeleteObjects: 0.076900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HECTOR\Desktop\Juego2D\Juego2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4221 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (97.4 KB). Loaded Objects now: 4707.
+Memory consumption went from 156.9 MB to 156.8 MB.
+Total: 2.984800 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.142700 ms MarkObjects: 2.522300 ms  DeleteObjects: 0.034600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,125 +224,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1711438.289217 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 8.wav
-  artifactKey: Guid(38409f9445b30cf4c8071a75e5a423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 8.wav using Guid(38409f9445b30cf4c8071a75e5a423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28c8adb638917221027d9dc9a72d8f4') in 0.416218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 10.wav
-  artifactKey: Guid(a529f901bd51a994ab50b87aa4784457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 10.wav using Guid(a529f901bd51a994ab50b87aa4784457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cce2a9ce1a690d2524c26356b58d7d') in 0.024899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 6.wav
-  artifactKey: Guid(7e3c778631cb0c449a183b8e80ef7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 6.wav using Guid(7e3c778631cb0c449a183b8e80ef7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50023ad52644cc6e8091b14e84bb09a3') in 0.023004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 6.wav
-  artifactKey: Guid(1734cebdf2bc02842a4652686c07cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 6.wav using Guid(1734cebdf2bc02842a4652686c07cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dc076ee87120d881506cd0859d1ab7') in 0.050593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 5.wav
-  artifactKey: Guid(a084b988fa69fe34994047e472f1a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 5.wav using Guid(a084b988fa69fe34994047e472f1a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8584eca90a5a8142dec44e5b52f328') in 0.040093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 5.wav
-  artifactKey: Guid(2d07eba8eab06cb45898cb11da4a54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 5.wav using Guid(2d07eba8eab06cb45898cb11da4a54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf0420888acf2f65228140751da6bee') in 0.035490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 11.wav
-  artifactKey: Guid(26f0f934fb9804a4dbd72fa47aff5791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Jump & Attack 11.wav using Guid(26f0f934fb9804a4dbd72fa47aff5791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a08f5ea57045ec492985231608918') in 0.019591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 1.wav
-  artifactKey: Guid(032a4f39620b7994aa36483d2e211ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 1.wav using Guid(032a4f39620b7994aa36483d2e211ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bce127ebf0eb2e4ca8502b33a13885') in 0.063726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 7.wav
-  artifactKey: Guid(effc0d496f2c4e144a91033290aefb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 7.wav using Guid(effc0d496f2c4e144a91033290aefb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e2a47e47a70ab6cba625b467763a8f') in 0.050917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 4.wav
-  artifactKey: Guid(e5afb3612f411224887c2576b4f8a2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attack Jump & Hit Damage Human Sounds/Hit & Damage 4.wav using Guid(e5afb3612f411224887c2576b4f8a2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd41e96d04f2cfb216fee3b70f52b9') in 0.042805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 147.460621 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1.wav
-  artifactKey: Guid(18304a162c77c43308134306bcded58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_1.wav using Guid(18304a162c77c43308134306bcded58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61464df77c29ed19862686540eb99716') in 0.075656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_SF.wav
-  artifactKey: Guid(e80d4666bb44a4e6e929c242ae3085bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_SF.wav using Guid(e80d4666bb44a4e6e929c242ae3085bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51c6d9ef5fe7e5f1fc656d6f7160af1') in 0.133475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_AC.wav
-  artifactKey: Guid(4a127116c21534489a571bab3ccb25d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_AC.wav using Guid(4a127116c21534489a571bab3ccb25d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf801ba177e8d32e8a2b98eafb4d8c0b') in 0.045048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1.wav
-  artifactKey: Guid(f00fc12dbf3e74dbba1440ed240bc9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1.wav using Guid(f00fc12dbf3e74dbba1440ed240bc9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa6fbc06b5e299a2faa341a0cd75a03') in 0.056828 seconds 
+  Time since last request: 953932.610382 seconds.
+  path: Assets/Images/Captura de pantalla (2).png
+  artifactKey: Guid(5012dc261aab5ad4297504eb6dff5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Captura de pantalla (2).png using Guid(5012dc261aab5ad4297504eb6dff5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8c6edab36eeed2f3594b26e0e18be0') in 0.134956 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_OD.wav
-  artifactKey: Guid(1f827a66d188f4f6985a950a15d55a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_OD.wav using Guid(1f827a66d188f4f6985a950a15d55a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d723d226fc2eaa8b42401355accb50') in 0.038883 seconds 
+  path: Assets/Images/game over.png
+  artifactKey: Guid(aa71951dd2c1f67438bb0f1e00f8a696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/game over.png using Guid(aa71951dd2c1f67438bb0f1e00f8a696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228eac2806482b01ca84b2916de056bc') in 0.016669 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_OD.wav
-  artifactKey: Guid(1d56ecbe198144b72b5b689c7884d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_OD.wav using Guid(1d56ecbe198144b72b5b689c7884d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40be381a8b1d0d5e291c3d961888da22') in 0.041204 seconds 
+  Time since last request: 5.975149 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Back.png
+  artifactKey: Guid(fd76a3d85fa584e42834036916a79b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Back.png using Guid(fd76a3d85fa584e42834036916a79b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0dec296d6372d2c400a84d4e077b6b') in 0.106549 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_CR.wav
-  artifactKey: Guid(ba05ad012988944d0a230eb255ac7a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Medium_1_CR.wav using Guid(ba05ad012988944d0a230eb255ac7a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40399fe7c5724e565bd82663f25a3ee9') in 0.022836 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Up.png
+  artifactKey: Guid(4e02df907356e0848a5d76021b80192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Up.png using Guid(4e02df907356e0848a5d76021b80192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb624f76d870cd32dd1e13f8873ddb1') in 0.034574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_2.wav
-  artifactKey: Guid(1105057eac8984a5b89cb65310f51e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Large_2.wav using Guid(1105057eac8984a5b89cb65310f51e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09425997d2b7172432dc4ba18528a2c0') in 0.059522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_CR.wav
-  artifactKey: Guid(7768dbc4e02e9416bafd23582cb436bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_CR.wav using Guid(7768dbc4e02e9416bafd23582cb436bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816b14f65bb1aea234ff1d4909f5a1a5') in 0.020014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_AC.wav
-  artifactKey: Guid(fa1ec459e645145a59d6fd09cf883e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arya of Terror - FREE Haunted Jump Scares/2021_HJS_JumpScare_Small_1_AC.wav using Guid(fa1ec459e645145a59d6fd09cf883e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f9d282302fa95e936abd8abbb677e') in 0.018475 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000074 seconds.
+  path: Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Front.png
+  artifactKey: Guid(dffdb4378818bc5469033648c57bd0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarlandSkies/Skyboxes/CloudyCrown_01_Midday/Textures/CloudyCrown_Midday_Front.png using Guid(dffdb4378818bc5469033648c57bd0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8706e40ec3ff56b0abbf57e2be817355') in 0.027813 seconds 

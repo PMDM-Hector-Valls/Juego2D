@@ -22,6 +22,10 @@ public class Character : MonoBehaviour
     public bool grounded=true;
     
     private AudioSource audioSource;
+
+    public AudioClip jumpSound;
+    public AudioClip getGem;
+
     void Start()
     {
         print(GameManager.currentLevel);
@@ -64,7 +68,7 @@ public class Character : MonoBehaviour
     public void jump(){
         if (grounded){
             rigidbody2d.AddForce (Vector2.up * jumpMovement);
-            audioSource.Play();
+            audioSource.PlayOneShot(jumpSound, 0.7f);
         }
     }
     public void left(){
@@ -107,6 +111,8 @@ public class Character : MonoBehaviour
          if (other.gameObject.tag == "gem"){
             GameManager.gems--;
             Destroy(other.gameObject);
+            audioSource.PlayOneShot(getGem, 0.7f);
+
         }
         if (other.gameObject.tag == "win"){
             GameManager.currentLevel++;
